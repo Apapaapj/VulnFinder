@@ -4,11 +4,11 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_API_URL": "",
+    "NEXT_PUBLIC_API_URL": "https://vulnfinder-ten.vercel.app",
     "RESEND_API_KEY": "",
     "DISCORD_WEBHOOK_URL": "",
     "ENCRYPTION_KEY": "",
-    "ALERT_EMAIL": ""
+    "ALERT_EMAIL": "alzzxdancowwnoface@gmail.com"
   },
   "functions": {
     "pages/api/**": {
