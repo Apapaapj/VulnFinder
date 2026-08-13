@@ -1,0 +1,48 @@
+{
+  "name": "website-vulnerability-scanner",
+  "version": "1.0.0",
+  "description": "Professional Website Vulnerability Scanner - Production Ready",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "pdfkit": "^0.13.0",
+    "html-pdf": "^3.0.0",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "crypto-js": "^4.2.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "nodemailer": "^6.9.7",
+    "resend": "^3.0.0",
+    "uuid": "^9.0.1",
+    "chart.js": "^4.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "recharts": "^2.10.3",
+    "framer-motion": "^10.16.16",
+    "zustand": "^4.4.1",
+    "clsx": "^2.0.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

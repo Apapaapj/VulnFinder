@@ -1,0 +1,46 @@
+MIT License
+
+Copyright (c) 2026 Website Vulnerability Scanner Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+DISCLAIMER FOR SECURITY SCANNING ACTIVITIES:
+
+This software is provided for authorized security testing and vulnerability
+assessment purposes only. Users are solely responsible for:
+
+1. Obtaining explicit written permission from website owners before scanning
+2. Complying with all applicable laws and regulations
+3. Using this tool ethically and legally
+4. Not using this tool for malicious purposes
+5. Properly disclosing vulnerabilities found
+
+UNAUTHORIZED SECURITY TESTING OR SCANNING IS ILLEGAL AND MAY RESULT IN:
+- Civil liability
+- Criminal prosecution
+- Imprisonment
+- Substantial fines
+
+The authors and contributors are NOT responsible for any misuse of this software
+or any legal consequences resulting from unauthorized use.
+
+By using this software, you acknowledge that you have read this disclaimer and
+agree to use the software only for authorized, legal, and ethical purposes.

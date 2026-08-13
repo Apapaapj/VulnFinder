@@ -1,0 +1,58 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "nodeVersion": "18.x",
+  "env": {
+    "NEXT_PUBLIC_API_URL": {
+      "description": "API URL for the application",
+      "default": "https://yourdomain.vercel.app"
+    },
+    "RESEND_API_KEY": {
+      "description": "Resend email service API key (optional)",
+      "default": ""
+    },
+    "DISCORD_WEBHOOK_URL": {
+      "description": "Discord webhook for alerts (optional)",
+      "default": ""
+    },
+    "ENCRYPTION_KEY": {
+      "description": "Encryption key for sensitive data (min 32 chars)",
+      "default": ""
+    },
+    "ALERT_EMAIL": {
+      "description": "Email for honeypot alerts",
+      "default": ""
+    }
+  },
+  "functions": {
+    "pages/api/**": {
+      "memory": 512,
+      "timeout": 60
+    }
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ],
+  "redirects": [],
+  "rewrites": [],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
