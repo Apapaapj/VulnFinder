@@ -4,31 +4,15 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_API_URL": {
-      "description": "API URL for the application",
-      "default": "https://yourdomain.vercel.app"
-    },
-    "RESEND_API_KEY": {
-      "description": "Resend email service API key (optional)",
-      "default": ""
-    },
-    "DISCORD_WEBHOOK_URL": {
-      "description": "Discord webhook for alerts (optional)",
-      "default": ""
-    },
-    "ENCRYPTION_KEY": {
-      "description": "Encryption key for sensitive data (min 32 chars)",
-      "default": ""
-    },
-    "ALERT_EMAIL": {
-      "description": "Email for honeypot alerts",
-      "default": ""
-    }
+    "NEXT_PUBLIC_API_URL": "",
+    "RESEND_API_KEY": "",
+    "DISCORD_WEBHOOK_URL": "",
+    "ENCRYPTION_KEY": "",
+    "ALERT_EMAIL": ""
   },
   "functions": {
     "pages/api/**": {
-      "memory": 512,
-      "timeout": 60
+      "memory": 512
     }
   },
   "headers": [
